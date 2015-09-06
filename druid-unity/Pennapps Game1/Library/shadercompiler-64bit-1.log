@@ -1,0 +1,59 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-1996153600
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=2714 outsize=884 ok=1
+Cmd: preprocess
+  insize=948 outsize=945 ok=1
+Cmd: preprocess
+  insize=772 outsize=769 ok=1
+Cmd: preprocess
+  insize=1334 outsize=1331 ok=1
+Cmd: preprocess
+  insize=2714 outsize=884 ok=1
+Cmd: preprocess
+  insize=948 outsize=945 ok=1
+Cmd: preprocess
+  insize=772 outsize=769 ok=1
+Cmd: preprocess
+  insize=1334 outsize=1331 ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1482 outsize=708 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=1482 outsize=8542 kw=SOFTPARTICLES_ON ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1482 outsize=6 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=1482 outsize=7 kw=SOFTPARTICLES_ON ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=990 outsize=635 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=990 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=2129 outsize=1361 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=2129 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=46630 outsize=6044 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=46630 outsize=6 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4059 outsize=3896 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4059 outsize=6 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=63517 outsize=4223 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=63517 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=39955 outsize=3075 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=39955 outsize=6 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=65644 outsize=4617 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=65644 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=41746 outsize=3452 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=41746 outsize=6 kw=POINT ok=1

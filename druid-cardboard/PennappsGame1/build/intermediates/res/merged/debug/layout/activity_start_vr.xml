@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".StartVRActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Placeholder"
+        android:id="@+id/GreetingText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Scan For Your Myo"
+        android:id="@+id/scanbutton"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/GreetingText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:text="Start Your VR Rehab"
+        android:id="@+id/startVR"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/GreetingText" />
+
+</RelativeLayout>
+<!-- From: file:/Users/ajayan/AndroidStudioProjects/Druid/PennappsGame1/src/main/res/layout/activity_start_vr.xml -->

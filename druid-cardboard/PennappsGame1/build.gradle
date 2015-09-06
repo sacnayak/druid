@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "com.druid.pennapps.druid"
+        minSdkVersion 18
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.google.android.gms:play-services:7.5.0'
+    repositories {
+        maven {
+            url '/Users/ajayan/myo-android-sdk-0.10.0/myorepository'
+        }
+    }
+    compile('com.thalmic:myosdk:0.10.+@aar')
+    compile files('libs/libprotobuf-java-2.6-nano.jar')
+    compile files('libs/unity-classes.jar')
+    compile files('libs/unitycardboardactivity.jar')
+    compile files('libs/unityvractivity.jar')
+    compile files('libs/vrtoolkit.jar')
+}

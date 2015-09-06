@@ -1,0 +1,27 @@
+<head>
+	<title>The Druid</title>
+</head>
+
+<body>
+	<div class="container">
+	<header>
+      <h1>Welcome to the Druid!</h1>
+    </header>
+	{{#if currentUser}}
+	<form class="Questionnaire-Form">
+		{{#each questionnaireTexts}}
+			{{> questionnaireText}}
+		{{/each}}
+		<br>
+	<input type="button" id="form-submit" name="form-submit" value="Submit">
+	</form>
+	{{/if}}
+	{{> loginButtons}}
+	</div>
+</body>
+
+<template name="questionnaireText">
+	<p>{{question}}</p>
+	<br>
+	<input type="text" id={{tag}} name="personalDetail">
+</template>
